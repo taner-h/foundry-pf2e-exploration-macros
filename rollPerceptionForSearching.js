@@ -21,7 +21,7 @@ for (const t of canvas.tokens.placeables) {
     let isSearching = false;
     let currenctActivity;
 
-    currentActivityIds.forEach((activityId) => {
+    currentActivityIds?.forEach((activityId) => {
       currenctActivity = activities.find(
         (activity) => activity.id === activityId
       );
